@@ -4,11 +4,13 @@
   "description": "Simple knowledge base app",
   "main": "app.js",
   "scripts": {
-    "start": "node app"
+    "start": "node app",
+    "postinstall": "node node_modules/bower/bin/bower install"
   },
   "author": "ShashaBot",
   "license": "ISC",
   "dependencies": {
+    "bower": "1.8.0", 
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.17.2",
     "connect-flash": "^0.1.1",
