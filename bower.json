@@ -1,0 +1,22 @@
+{
+  "name": "nodekb",
+  "description": "Simple knowledge base app",
+  "main": "app.js",
+  "authors": [
+    "shashaBot"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/shashaBot/Basic-node-app",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
